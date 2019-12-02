@@ -12,11 +12,11 @@ Command : fork 명령어를 통해 프로세스를 생성하고, execv 명령어
 - ls -al : 현재 디렉토리에 있는 파일들을 숨겨진 파일을 포함해서 자세히 표시한다.
 ## 2.2) 다이어그램
 
- ![diagram](./img/diagram.png)
+ ![diagram](./ing/diagram.png)
  
 # 3.	실행 결과
 
- ![result](./img/result.png)
+ ![result](./ing/result.png)
  
 # 4.	고찰
 이번 HW2를 할 때에는 조교님께서 올려준 예제 코드가 큰 도움이 되었다. 코드를 실행시켜 보면서 대략적인 fork와 exec계열 함수들이 어떻게 돌아가는지 확인해 볼 수 있어서 개념이 잘 잡혔다. 이를 이용해서 코드를 변형시켜 다른 명령어들을 추가해서 간단한 쉘 프로그램을 완성할 수 있었다.
@@ -27,17 +27,17 @@ Command : fork 명령어를 통해 프로세스를 생성하고, execv 명령어
 # 5.	프로그램 소스 코드
 - Main.c
 
- ![main](./img/main.png)
+ ![main](./ing/main.png)
  
 - Command.c
 
- ![command](./img/command.png)
+ ![command](./ing/command.png)
  
- ![command2](./img/command2.png)
+ ![command2](./ing/command2.png)
  
 - Instructions.h
 
-![](./img/instruction.png)
+![](./ing/instruction.png)
 
   사용되는 함수의 이름을 선언해 주었다.
 - Makefile
@@ -46,8 +46,12 @@ Command : fork 명령어를 통해 프로세스를 생성하고, execv 명령어
  
 # 6.	자료 출처
 execl함수와 execv함수의 사용법
+
 https://m.blog.naver.com/PostView.nhn?blogId=youtoo2&logNo=20011337681&proxyReferer=https%3A%2F%2Fwww.google.com%2F
+
 조교님께서 ABEEK사이트에 올리신 예제 코드 참고
+
 다이어그램 만드는 사이트
+
 https://www.draw.io/
 
