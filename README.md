@@ -4,11 +4,11 @@
 
 ## 목차
 
-- [HW1 : Stack & Queue](./HW1/README.md)
-- HW2 : Makeing a shell program using(fork, exec)
-- HW3 : Race condition problem (using pthread library) and solution (mutex, synchronized)
+- [HW1](./HW1/README.md) : Stack & Queue
+- [HW2](./HW2/README.md) : Makeing a shell program using(fork, exec)
+- [HW3](./HW3/README.md) : Race condition problem (using pthread library) and solution (mutex, synchronized)
 
     Compare matrix calculate program with single/multi thread
 
-- HW4 : Stack & heap sharing memory segment
-- HW5 : Memory device driver
+- [HW4](./HW3/README.md) : Stack & heap sharing memory segment
+- [HW5](./HW3/README.md) : Memory device driver
