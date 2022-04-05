@@ -11,4 +11,4 @@
     Compare matrix calculate program with single/multi thread
 
 - [HW4](./HW4/README.md) : Stack & heap sharing memory segment
-- [HW5](./HW3/README.md) : Memory device driver
+- [HW5](./HW5/README.md) : Memory device driver
